@@ -1,11 +1,21 @@
 module.exports = {
-  purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
+  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      kaushan: ["Kaushan Script"],
+    },
+    extend: {  colors: {
+      green: {
+        light: '#b3bcf5',
+        DEFAULT: '#00f260',
+        dark: '#202e78',
+      }
+    }
+  },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
