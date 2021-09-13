@@ -1,6 +1,8 @@
 import "../styles/globals.css";
 import SideBar from "../components/SideBar";
 import NavBar from "../components/NavBar";
+import {} from "next-themes"
+
 
 function MyApp({ Component, pageProps }) {
   return (
