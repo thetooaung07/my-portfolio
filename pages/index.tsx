@@ -22,7 +22,7 @@ const index = () => {
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-gray-200 rounded-lg bg-dark-200 lg:col-span-1"
+              className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
             >
               <ServiceCard service={service} />
             </div>

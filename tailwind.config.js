@@ -1,5 +1,6 @@
 module.exports = {
   purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+  mode: 'jit',
   darkMode: "class", // or 'media' or 'class'
   theme: {
     fontFamily: {

@@ -1,4 +1,4 @@
-import { IService, ISkill } from './types';
+import { IProjects, IService, ISkill } from './types';
 import { RiComputerLine } from 'react-icons/ri'
 import { FaServer } from 'react-icons/fa'
 import { AiOutlineApi, AiOutlineAntDesign } from 'react-icons/ai'
@@ -81,7 +81,7 @@ export const languages: ISkill[] = [
 ];
 
 
-export const tools: Skill[] = [
+export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
@@ -103,3 +103,118 @@ export const tools: Skill[] = [
     level: "45",
   },
 ];
+
+
+export const projects:IProjects[] = [
+
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+  { 
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+
+]
