@@ -1,6 +1,5 @@
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { IService } from "../types";
 
 const index = () => {
   return (

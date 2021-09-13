@@ -7,6 +7,6 @@ export interface IService {
 
 export interface ISkill {
   name: string, 
-  skill: string,
   Icon: IconType
+  level: string,
 }
