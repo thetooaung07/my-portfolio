@@ -6,13 +6,18 @@ export const NavBarItem: FunctionComponent<{
   handleFilterCategory: Function;
   active: string;
 }> = ({ value, handleFilterCategory, active }) => {
-  let className = "capitalize cursor-pointer hover:text-green";
+  let className =
+    "capitalize cursor-pointer hover:text-green whitespace-nowrap md:whitespace-normal";
 
   if (active === value) {
     className += " text-green";
   }
 
-  return <li className={className} onClick={() => handleFilterCategory(value)}>{value}</li>;
+  return (
+    <li className={className} onClick={() => handleFilterCategory(value)}>
+      {value}
+    </li>
+  );
 };
 
 const ProjectsNavBar: FunctionComponent<{

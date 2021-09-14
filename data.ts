@@ -46,33 +46,34 @@ export const services: IService[] = [
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
+    name: "React",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Nextjs",
+    level: "70",
+  },
+  
+  {
+    Icon: BsCircleFill,
+    name: "NodeJs",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Express",
+    level: "50",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Flutter",
     level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
   },
 ];
 
@@ -80,22 +81,22 @@ export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
     level: "60",
   },
   {
     Icon: BsCircleFill,
     name: "Framer",
-    level: "45",
+    level: "50",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Photoshop",
+    level: "40",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Illustrator",
+    level: "40",
   },
 ];
 

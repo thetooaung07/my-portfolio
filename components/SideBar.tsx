@@ -1,6 +1,6 @@
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { GiTie } from "react-icons/gi";
+import { BsAppIndicator, BsLink45Deg, BsPeopleCircle, BsPerson } from "react-icons/bs";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import React from "react";
@@ -18,27 +18,27 @@ const SideBar = () => {
         src="/images/akame_cropped.jpg"
         alt="avatar"
         className="mx-auto border rounded-full "
-        height="128px"
-        width="128px"
-        layout="intrinsic"
+        height="128"
+        width="128"
+     
         quality="100"
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Thet Oo </span>Aung
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-        Web Developer
+      <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 ">
+       <BsAppIndicator className="w-4 h-4 mx-2"></BsAppIndicator>Web Developer
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full dark:bg-dark-200"
         href="/assets/Thet_Oo_Aung_CV.pdf"
         download="Thet_Oo_Aung_CV.pdf"
       >
-        <GiTie className="w-6 h-6"></GiTie>Download Resume
+        <BsLink45Deg className="w-6 h-6"></BsLink45Deg>Download Resume
       </a>
       {/* social icons */}
-      <div className="flex justify-around w-9/12 my-5 text-green md:w-full">
+      <div className="flex justify-around my-5 text-green md:w-full">
         <a href="https://www.facebook.com/thetooaung07" aria-label="Facebook">
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
@@ -67,14 +67,14 @@ const SideBar = () => {
       </div>
       {/* Email Button */}
       <button
-        className="w-8/12 px-5 py-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none "
+        className="w-8/12 px-5 py-1 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none "
         onClick={() => window.open("mailto:thetooaung07@gmail.com")}
       >
         Email Me
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white rounded-full bg-gradient-to-r from-green to-blue-400 "
+        className="w-8/12 px-5 py-1 my-4 text-white rounded-full bg-gradient-to-r from-green to-blue-400 "
       >
         Toggle Theme
       </button>
