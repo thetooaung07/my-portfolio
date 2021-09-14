@@ -1,51 +1,47 @@
-import { IProjects, IService, ISkill } from './types';
-import { RiComputerLine } from 'react-icons/ri'
-import { FaServer } from 'react-icons/fa'
-import { AiOutlineApi, AiOutlineAntDesign } from 'react-icons/ai'
-import { MdDeveloperMode } from 'react-icons/md'
+import { IProjects, IService, ISkill } from "./types";
+import { RiComputerLine } from "react-icons/ri";
+import { FaServer } from "react-icons/fa";
+import { AiOutlineApi, AiOutlineAntDesign } from "react-icons/ai";
+import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
 
-
-
-
 export const services: IService[] = [
-   {
-      Icon: RiComputerLine,
-      title: "Frontend Development",
-      about:
-        "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
-    },
-    {
-      Icon: FaServer,
-      title: "Backend  Development",
-      about:
-        "handle database, server, api using <b>Express </b> & other popular frameworks",
-    },
-    {
-      Icon: AiOutlineApi,
-      title: "API Development",
-      about:
-        "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
-    },
-    {
-      Icon: MdDeveloperMode,
-      title: "Competitive Coder",
-      about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-    },
-    {
-      Icon: AiOutlineAntDesign,
-      title: "UI/UX designer",
-      about:
-        "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-    },
-    {
-      Icon: RiComputerLine,
-      title: "Whatever",
-      about:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
-    },
+  {
+    Icon: RiComputerLine,
+    title: "Frontend Development",
+    about:
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+  },
+  {
+    Icon: FaServer,
+    title: "Backend  Development",
+    about:
+      "handle database, server, api using <b>Express </b> & other popular frameworks",
+  },
+  {
+    Icon: AiOutlineApi,
+    title: "API Development",
+    about:
+      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+  },
+  {
+    Icon: MdDeveloperMode,
+    title: "Competitive Coder",
+    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+  },
+  {
+    Icon: AiOutlineAntDesign,
+    title: "UI/UX designer",
+    about:
+      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+  },
+  {
+    Icon: RiComputerLine,
+    title: "Whatever",
+    about:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+  },
 ];
-
 
 export const languages: ISkill[] = [
   {
@@ -80,7 +76,6 @@ export const languages: ISkill[] = [
   },
 ];
 
-
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
@@ -104,10 +99,8 @@ export const tools: ISkill[] = [
   },
 ];
 
-
-export const projects:IProjects[] = [
-
-  { 
+export const projects: IProjects[] = [
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -117,7 +110,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -127,7 +120,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -137,7 +130,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -147,7 +140,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -157,7 +150,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -167,7 +160,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -177,16 +170,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
-    name: "COVID-19 Tracker",
-    description:
-      "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
-    deployed_url: "https://toa-coronatracker.netlify.app",
-    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
-  },  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -196,7 +180,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -206,7 +190,7 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-  { 
+  {
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -216,5 +200,14 @@ export const projects:IProjects[] = [
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
-
-]
+  {
+    name: "COVID-19 Tracker",
+    description:
+      "This app shows a statistical view about corona virus cases all over the world",
+    image_path: "/images/covid.png",
+    deployed_url: "https://toa-coronatracker.netlify.app",
+    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
+    category: ["react"],
+    key_techs: ["React", "Chart.js", "Material UI"],
+  },
+];
