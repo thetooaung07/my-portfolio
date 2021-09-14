@@ -101,6 +101,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProjects[] = [
   {
+    id: 1,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -111,6 +112,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 2,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -121,6 +123,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 3,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -131,6 +134,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 4,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -141,6 +145,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 5,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -151,6 +156,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 6,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -161,6 +167,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
+    id: 7,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
@@ -171,36 +178,7 @@ export const projects: IProjects[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
-    name: "COVID-19 Tracker",
-    description:
-      "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
-    deployed_url: "https://toa-coronatracker.netlify.app",
-    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
-  },
-  {
-    name: "COVID-19 Tracker",
-    description:
-      "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
-    deployed_url: "https://toa-coronatracker.netlify.app",
-    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
-  },
-  {
-    name: "COVID-19 Tracker",
-    description:
-      "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
-    deployed_url: "https://toa-coronatracker.netlify.app",
-    github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
-  },
-  {
+    id: 8,
     name: "COVID-19 Tracker",
     description:
       "This app shows a statistical view about corona virus cases all over the world",

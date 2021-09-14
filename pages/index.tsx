@@ -1,13 +1,18 @@
 import { motion } from "framer-motion";
-import { fadeInUp , stagger } from "../animations";
+import { NextPage } from "next";
+import { fadeInUp, routeAnimation, stagger } from "../animations";
 
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
-
-const index = () => {
+const About: NextPage = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+    >
       <h5 className="my-3 font-medium">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum alias
         dignissimos corrupti sit quas, culpa doloribus amet explicabo veniam
@@ -21,14 +26,18 @@ const index = () => {
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h6 className="my-3 text-xl font-bold tracking-wide">What I am doing</h6>
-        <motion.div className="grid gap-6 lg:grid-cols-2" variants={stagger} initial="initial"
-              animate="animate">
+        <h6 className="my-3 text-xl font-bold tracking-wide">
+          What I am doing
+        </h6>
+        <motion.div
+          className="grid gap-6 lg:grid-cols-2"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
           {services.map((service) => (
             <motion.div
               variants={fadeInUp}
-             
-        
               key={service.title}
               className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
             >
@@ -37,11 +46,11 @@ const index = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default index;
+export default About;
 
 // export const getServerSideProps = async (context:GetServerSidePropsContext) => {
 
