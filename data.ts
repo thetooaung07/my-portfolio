@@ -54,7 +54,7 @@ export const languages: ISkill[] = [
     name: "Nextjs",
     level: "70",
   },
-  
+
   {
     Icon: BsCircleFill,
     name: "NodeJs",
@@ -114,10 +114,10 @@ export const projects: IProjects[] = [
   },
   {
     id: 2,
-    name: "COVID-19 Tracker",
+    name: "Akame Ga Kill!",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
+    image_path: "/images/akame_cropped.jpg",
     deployed_url: "https://toa-coronatracker.netlify.app",
     github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
     category: ["react"],
@@ -136,10 +136,10 @@ export const projects: IProjects[] = [
   },
   {
     id: 4,
-    name: "COVID-19 Tracker",
+    name: "Akame Ga Kill!",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
+    image_path: "/images/akame_cropped.jpg",
     deployed_url: "https://toa-coronatracker.netlify.app",
     github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
     category: ["react"],
@@ -158,10 +158,10 @@ export const projects: IProjects[] = [
   },
   {
     id: 6,
-    name: "COVID-19 Tracker",
+    name: "Akame Ga Kill!",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
+    image_path: "/images/akame_cropped.jpg",
     deployed_url: "https://toa-coronatracker.netlify.app",
     github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
     category: ["react"],
@@ -180,10 +180,10 @@ export const projects: IProjects[] = [
   },
   {
     id: 8,
-    name: "COVID-19 Tracker",
+    name: "Akame Ga Kill!",
     description:
       "This app shows a statistical view about corona virus cases all over the world",
-    image_path: "/images/covid.png",
+    image_path: "/images/akame_cropped.jpg",
     deployed_url: "https://toa-coronatracker.netlify.app",
     github_url: "https://github.com/thetooaung07/material-ui-corona-tracker",
     category: ["react"],

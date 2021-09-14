@@ -4,7 +4,7 @@ import { fadeInUp, routeAnimation } from "../animations";
 import Bar from "../components/Bar";
 import { languages, tools } from "../data";
 
-import { FaUserGraduate } from "react-icons/fa";
+import { BiBookReader } from "react-icons/bi";
 import { VscCode } from "react-icons/vsc";
 
 const resume = () => {
@@ -27,17 +27,17 @@ const resume = () => {
           {/* Education */}
           <motion.div variants={fadeInUp} initial="initial" animate="animate">
             <h5 className="flex items-baseline my-3 space-x-2 text-2xl font-bold ">
-              <FaUserGraduate className="mr-2 text-xl" /> Education
+              <BiBookReader className="mr-2 text-xl" /> Education
             </h5>
 
             <div>
               <h5 className="my-3 text-xl font-bold">
                 Computer Engineering and IT
               </h5>
-              <p className="font-semibold text-white text-opacity-50">
+              <p className="font-semibold text-black dark:text-opacity-50 dark:text-white">
                 Yangon Technological University (2017 - present)
               </p>
-              <p className="mt-2 mb-4 text-white text-opacity-50">
+              <p className="mt-2 mb-4 text-black dark:text-opacity-50 dark:text-white">
                 I am currently pursuing Computer Science and Engineering Degree.
               </p>
             </div>
@@ -52,10 +52,10 @@ const resume = () => {
               <h5 className="my-2 text-xl font-bold">
                 Computer Engineering and IT
               </h5>
-              <p className="font-semibold text-white text-opacity-50">
+              <p className="font-semibold text-black dark:text-opacity-50 dark:text-white ">
                 Yangon Technological University (2017 - present)
               </p>
-              <p className="mt-2 mb-4 text-white text-opacity-50">
+              <p className="mt-2 mb-4 text-black dark:text-opacity-50 dark:text-white ">
                 I am currently pursuing Computer Science and Engineering Degree.
               </p>
             </div>
