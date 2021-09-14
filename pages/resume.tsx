@@ -37,7 +37,7 @@ const resume = () => {
               <p className="font-semibold text-white text-opacity-50">
                 Yangon Technological University (2017 - present)
               </p>
-              <p className="mt-2 mb-4 font-semibold text-white text-opacity-50">
+              <p className="mt-2 mb-4 text-white text-opacity-50">
                 I am currently pursuing Computer Science and Engineering Degree.
               </p>
             </div>
@@ -55,7 +55,7 @@ const resume = () => {
               <p className="font-semibold text-white text-opacity-50">
                 Yangon Technological University (2017 - present)
               </p>
-              <p className="mt-2 mb-4 font-semibold text-white text-opacity-50">
+              <p className="mt-2 mb-4 text-white text-opacity-50">
                 I am currently pursuing Computer Science and Engineering Degree.
               </p>
             </div>
