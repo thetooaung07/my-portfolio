@@ -2,23 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
- :root {
+  :root {
     --color-theme-1: #000000;
     --color-theme-2: #ffffff;
   }
   .th-cyan {
-    --color-theme-1: #65c3ba ;
-    --color-theme-2: #009688 ;
+    --color-theme-1: #b7f8db;
+    --color-theme-2: #50a7c2;
   }
 
   .th-red {
-    --color-theme-1: theme('colors.yellow.700');
-    --color-theme-2: theme('colors.yellow.200');
+    --color-theme-1: #537895;
+    --color-theme-2: #09203f;
+  }
+  .th-blue {
+    --color-theme-1: #89f7fe;
+    --color-theme-2: #66a6ff;
+  }
+  .th-purple {
+    --color-theme-1: #667eea;
+    --color-theme-2: #764ba2;
   }
 }
-
 
 /* //TODO use tailwind */
 body {

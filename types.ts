@@ -23,3 +23,7 @@ export interface IProjects {
 }
 
 export type Category = "react" | "node" | "express" |"mongo" | "spring boot" ;
+
+
+export type IColorThemes = "th-cyan" | "th-purple" | "th-blue" | "th-red"| "th-blue";
+ 

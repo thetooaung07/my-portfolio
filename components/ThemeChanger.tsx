@@ -1,19 +1,23 @@
 import { useTheme } from "next-themes";
-import { VoidFunctionComponent } from "react";
+import { FunctionComponent } from "react";
+import { IColorThemes } from "../types";
 
-const ThemeChanger: VoidFunctionComponent<{ setColor: Function }> = ({
-  setColor,
-}) => {
+const ThemeChanger: FunctionComponent<{
+  setColor: (value: IColorThemes) => void;
+}> = ({ setColor }) => {
   const { theme } = useTheme();
 
   console.log(theme);
 
   return (
-    <div className="flex items-center gap-4 lg:flex-col th-cyan">
-      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
-      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
-      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
-      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
+    <div className="flex items-center gap-4 mt-0 lg:flex-col lg:mt-4">
+      <div
+        className="w-12 h-12 rounded-full th-cyan bg-gradient-to-tr from-skin-base to-skin-secondary"
+        onClick={() => setColor("th-cyan")}
+      ></div>
+      <div className="w-12 h-12 rounded-full th-red bg-gradient-to-tr from-skin-base to-skin-secondary" onClick={() => setColor("th-red")}></div>
+      <div className="w-12 h-12 rounded-full th-blue bg-gradient-to-tr from-skin-base to-skin-secondary" onClick={() => setColor("th-blue")} ></div>
+      <div className="w-12 h-12 rounded-full th-purple bg-gradient-to-tr from-skin-base to-skin-secondary"  onClick={()=> setColor("th-purple")} ></div>
     </div>
   );
 };
