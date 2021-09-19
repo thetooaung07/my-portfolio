@@ -8,21 +8,28 @@ module.exports = {
     },
 
     boxShadow: {
-      "custom-light": "0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06)",
+      "custom-light":
+        "0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06)",
       "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
     },
     extend: {
+      textColor: {
+        skin: {
+          base: "var(--color-theme-1)",
+          secondary: "var(--color-theme-2)",
+        },
+      },
       backgroundColor: {
         skin: {
-          base : 'var(--color-theme-1)',
-          secondary : 'var(--color-theme-2)',
+          base: "var(--color-theme-1)",
+          secondary: "var(--color-theme-2)",
         },
       },
       gradientColorStops: {
         skin: {
-          base : 'var(--color-theme-1)',
-          secondary : 'var(--color-theme-2)',
-        }
+          base: "var(--color-theme-1)",
+          secondary: "var(--color-theme-2)",
+        },
       },
 
       colors: {

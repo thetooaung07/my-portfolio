@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps, router }) {
                 <Component {...pageProps} key={router.route} />
               </AnimatePresence>
             </div>
-            <div className="bg-white bg-opacity-20 rounded-2xl shadow-custom-light dark:shadow-custom-dark lg:col-span-1 col-span-full bg-clip-padding backdrop-filter backdrop-blur-xl">
+            <div className="bg-white bg-opacity-20 rounded-2xl shadow-custom-light dark:shadow-custom-dark lg:col-span-1 col-span-full bg-clip-padding backdrop-filter backdrop-blur-xl dark:bg-dark-500 ">
               <ThemeChanger setColor={setColor} />
             </div>
           </div>
