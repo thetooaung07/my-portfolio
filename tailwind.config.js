@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
-  mode: 'jit',
+  mode: "jit",
   darkMode: "class", // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -12,11 +12,22 @@ module.exports = {
       "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
     },
     extend: {
+      backgroundColor: {
+        skin: {
+          base : 'var(--color-theme-1)',
+          secondary : 'var(--color-theme-2)',
+        },
+      },
+      gradientColorStops: {
+        skin: {
+          base : 'var(--color-theme-1)',
+          secondary : 'var(--color-theme-2)',
+        }
+      },
+
       colors: {
         green: {
-          // light: '#b3bcf5',
           DEFAULT: "#00f260",
-          // dark: '#202e78',
         },
         dark: {
           DEFAULT: "#010101",

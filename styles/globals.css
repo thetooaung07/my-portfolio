@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+ :root {
+    --color-theme-1: #000000;
+    --color-theme-2: #ffffff;
+  }
+  .th-cyan {
+    --color-theme-1: #73C1C6;
+    --color-theme-2: #4BC6B9;
+  }
+
+  .th-red {
+    --color-theme-1: theme('colors.yellow.700');
+    --color-theme-2: theme('colors.yellow.200');
+  }
+}
+
+
 /* //TODO use tailwind */
 body {
   font-family: sans-serif;

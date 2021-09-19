@@ -9,6 +9,7 @@ import {
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import React, { useEffect, useState } from "react";
+import ProfilePic from "../public/images/akame_cropped.jpg";
 
 const SideBar = () => {
   const { theme, setTheme } = useTheme();
@@ -22,12 +23,12 @@ const SideBar = () => {
   return (
     <>
       <Image
-        src="/images/akame_cropped.jpg"
+        src={ProfilePic}
         alt="avatar"
         className="mx-auto border rounded-full "
-        height="128"
-        width="128"
-        quality="100"
+        height={128}
+        width={128}
+        // quality={100}
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
