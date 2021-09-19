@@ -1,10 +1,10 @@
 const ThemeChanger = () => {
   return (
-    <div className="flex items-center gap-4 lg:flex-col th-red">
+    <div className="flex items-center gap-4 lg:flex-col th-cyan">
       <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
-      <div className="w-12 h-12 rounded-full"></div>
-      <div className="w-12 h-12 rounded-full"></div>
-      <div className="w-12 h-12 rounded-full"></div>
+      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
+      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
+      <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-skin-base to-skin-secondary"></div>
     </div>
   );
 };

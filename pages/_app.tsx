@@ -12,8 +12,11 @@ function MyApp({ Component, pageProps, router }) {
       <Head>
         <title>My Portfolio with Nextjs</title>
       </Head>
-      <ThemeProvider attribute="class">
-        <div className="grid grid-cols-12 gap-6 px-5 my-11 lg:pl-48 lg:pr-20 sm:px-20">
+      <ThemeProvider
+        forcedTheme={Component.theme || undefined}
+        attribute="class"
+      >
+        <div className="grid grid-cols-12 gap-6 px-5 my-11 lg:pl-48 lg:pr-24 sm:px-20">
           <div className="col-span-12 p-4 text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark ">
             <SideBar />
           </div>
@@ -23,7 +26,7 @@ function MyApp({ Component, pageProps, router }) {
               <Component {...pageProps} key={router.route} />
             </AnimatePresence>
           </div>
-          <div className="col-span-1 text-center rounded-2xl ">
+          <div className="lg:col-span-1 col-span-full">
             <ThemeChanger />
           </div>
         </div>

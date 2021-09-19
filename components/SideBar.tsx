@@ -13,12 +13,16 @@ import ProfilePic from "../public/images/akame_cropped.jpg";
 
 const SideBar = () => {
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false)
 
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
-  console.log(theme);
+  useEffect(() => setMounted(true), [])
+  if (!mounted) return null
+
+  // console.log(theme);
 
   return (
     <>

@@ -8,7 +8,7 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
 const About = ({ endpoint }) => {
-  console.log(endpoint);
+  // console.log(endpoint);
 
   return (
     <>
