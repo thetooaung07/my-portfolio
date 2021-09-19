@@ -24,8 +24,10 @@ const SideBar = () => {
 
   // console.log(theme);
 
+  // bg-opacity-50 bg-clip-padding backdrop-filter backdrop-blur-xl
+
   return (
-    <>
+    <div >
       <Image
         src={ProfilePic}
         alt="avatar"
@@ -66,7 +68,7 @@ const SideBar = () => {
 
       {/* address */}
       <div
-        className="py-4 my-5 bg-gray-200 dark:bg-dark-200"
+        className="py-4 my-5 bg-gray-200 bg-opacity-50 bg-clip-padding backdrop-filter backdrop-blur-xl dark:bg-dark-200"
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
@@ -94,7 +96,7 @@ const SideBar = () => {
           : "Dark"}
         {}
       </button>
-    </>
+    </div>
   );
 };
 

@@ -16,7 +16,7 @@ const About = ({ endpoint }) => {
         <title> Thet | About | Nextjs </title>
       </Head>
       <motion.div
-        className="flex flex-col flex-grow px-6 pt-1"
+        className="flex flex-col flex-grow px-6 pt-1 "
         variants={routeAnimation}
         initial="initial"
         animate="animate"
@@ -31,7 +31,7 @@ const About = ({ endpoint }) => {
         </h5>
 
         <div
-          className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+          className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100 "
           style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
         >
           <h6 className="my-3 text-xl font-bold tracking-wide">
@@ -47,7 +47,7 @@ const About = ({ endpoint }) => {
               <motion.div
                 variants={fadeInUp}
                 key={service.title}
-                className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
+                className="bg-gray-100 rounded-lg dark:bg-dark-200 lg:col-span-1"
               >
                 <ServiceCard service={service} />
               </motion.div>
