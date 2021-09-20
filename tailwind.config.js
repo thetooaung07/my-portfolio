@@ -16,18 +16,21 @@ module.exports = {
       textColor: {
         skin: {
           base: "var(--color-theme-1)",
+          middle: "var(--color-theme-mid)",
           secondary: "var(--color-theme-2)",
         },
       },
       backgroundColor: {
         skin: {
           base: "var(--color-theme-1)",
+          middle: "var(--color-theme-mid)",
           secondary: "var(--color-theme-2)",
         },
       },
       gradientColorStops: {
         skin: {
           base: "var(--color-theme-1)",
+          middle: "var(--color-theme-mid)",
           secondary: "var(--color-theme-2)",
         },
       },

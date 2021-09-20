@@ -36,7 +36,7 @@ const SideBar = () => {
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-skin-secondary">Thet Oo </span>Aung
+        <span className="text-skin-middle">Thet Oo </span>Aung
       </h3>
       <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 ">
         <BsAppIndicator className="w-4 h-4 mx-2"></BsAppIndicator>Web Developer
@@ -49,7 +49,7 @@ const SideBar = () => {
         <BsLink45Deg className="w-6 h-6"></BsLink45Deg>Download Resume
       </a>
       {/* social icons */}
-      <div className="flex justify-around my-5 text-skin-secondary md:w-full">
+      <div className="flex justify-around my-5 text-skin-mid md:w-full">
         <a href="https://www.facebook.com/thetooaung07" aria-label="Facebook">
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
