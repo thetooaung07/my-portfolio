@@ -8,7 +8,7 @@ import ThemeChanger from "../components/ThemeChanger";
 import { useState } from "react";
 
 function MyApp({ Component, pageProps, router }) {
-  const [color, setColor] = useState("th-cyan");
+  const [color, setColor] = useState("th-default");
 
   return (
     <>

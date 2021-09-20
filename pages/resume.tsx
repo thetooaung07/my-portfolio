@@ -15,7 +15,7 @@ const resume = () => {
       </Head>
 
       <motion.div
-        className="px-4 py-2 divide-y md:px-6"
+        className="px-4 py-2 divide-y divide-black md:px-6"
         variants={routeAnimation}
         initial="initial"
         animate="animate"

@@ -22,8 +22,12 @@ export interface IProjects {
   key_techs: string[];
 }
 
-export type Category = "react" | "node" | "express" |"mongo" | "spring boot" ;
+export type Category = "react" | "node" | "express" | "mongo" | "spring boot";
 
-
-export type IColorThemes = "th-cyan" | "th-purple" | "th-blue" | "th-red"| "th-blue";
- 
+export type IColorThemes =
+  | "th-default"
+  | "th-cyan"
+  | "th-purple"
+  | "th-blue"
+  | "th-red"
+  | "th-blue";

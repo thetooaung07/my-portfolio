@@ -78,14 +78,14 @@ const SideBar = () => {
       </div>
       {/* Email Button */}
       <button
-        className="w-8/12 px-5 py-1 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none "
+        className="w-8/12 px-5 py-1 text-white rounded-full bg-gradient-to-r from-skin-base to-skin-secondary focus:outline-none "
         onClick={() => window.open("mailto:thetooaung07@gmail.com")}
       >
         Email Me
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-1 my-4 text-white rounded-full bg-gradient-to-r from-green to-blue-400 "
+        className="w-8/12 px-5 py-1 my-4 text-white rounded-full bg-gradient-to-r from-skin-base to-skin-secondary "
       >
         {theme === "system"
           ? "Change Theme"

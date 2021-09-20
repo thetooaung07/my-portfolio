@@ -34,8 +34,6 @@ module.exports = {
           secondary: "var(--color-theme-2)",
         },
       },
-     
-
       colors: {
         green: {
           DEFAULT: "#00f260",

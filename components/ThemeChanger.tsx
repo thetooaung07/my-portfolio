@@ -5,12 +5,14 @@ import { IColorThemes } from "../types";
 const ThemeChanger: FunctionComponent<{
   setColor: (value: IColorThemes) => void;
 }> = ({ setColor }) => {
-  const { theme } = useTheme();
-
-  console.log(theme);
+  // const { theme } = useTheme();
 
   return (
     <div className="flex items-center justify-center gap-4 my-2 lg:justify-start lg:flex-col lg:mt-4">
+      <div
+        className="w-12 h-12 rounded-full th-default bg-gradient-to-tr from-skin-base to-skin-secondary shadow-custom-light dark:shadow-custom-dark"
+        onClick={() => setColor("th-default")}
+      ></div>
       <div
         className="w-12 h-12 rounded-full th-cyan bg-gradient-to-tr from-skin-base to-skin-secondary shadow-custom-light dark:shadow-custom-dark"
         onClick={() => setColor("th-cyan")}

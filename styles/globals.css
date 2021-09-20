@@ -8,6 +8,13 @@
     --color-theme-mid: #00f260;
     --color-theme-2: #6cc6cb;
   }
+  .th-default {
+    --color-theme-1: #00f260;
+    /* --color-theme-mid: theme("colors.blue.400"); */
+    --color-theme-mid: #00f260;
+    --color-theme-2: theme("colors.blue.500");
+  }
+
   .th-cyan {
     --color-theme-1: #b7f8db;
     --color-theme-mid: #56c596;
@@ -25,7 +32,7 @@
   }
   .th-red {
     --color-theme-1: #537895;
-    --color-theme-mid: #1C467F;
+    --color-theme-mid: #1c467f;
     --color-theme-2: #09203f;
   }
 }
@@ -37,9 +44,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to right bottom, var(--color-theme-1), var(--color-theme-2));
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-theme-1),
+    var(--color-theme-2)
+  );
   border-radius: 30px;
- 
 }
 
 ::-webkit-scrollbar {

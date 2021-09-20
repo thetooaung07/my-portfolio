@@ -31,28 +31,31 @@ const About = ({ endpoint }) => {
         </h5>
 
         <div
-          className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100 "
+          className="flex-grow p-4 mt-5 bg-white bg-opacity-25 dark:bg-dark-100 " 
           style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
         >
-          <h6 className="my-3 text-xl font-bold tracking-wide">
+          <h6 className="mt-1 mb-4 text-xl font-bold tracking-wide">
             What I am doing
           </h6>
-          <motion.div
-            className="grid gap-6 lg:grid-cols-2"
-            variants={stagger}
-            initial="initial"
-            animate="animate"
-          >
-            {services.map((service) => (
-              <motion.div
-                variants={fadeInUp}
-                key={service.title}
-                className="bg-gray-100 rounded-lg dark:bg-dark-200 lg:col-span-1"
-              >
-                <ServiceCard service={service} />
-              </motion.div>
-            ))}
-          </motion.div>
+          <div className="bg-opacity-50 ">
+            <motion.div
+              className="grid gap-6 bg-opacity-50 lg:grid-cols-2 "
+              variants={stagger}
+              initial="initial"
+              animate="animate"
+            >
+              {services.map((service) => (
+                <motion.div
+                  variants={fadeInUp}
+                  key={service.title}
+                  className="rounded-lg bg-opacity-60 bg-gray-50 dark:bg-dark-200 lg:col-span-1"
+                >
+                  <ServiceCard service={service} />
+               
+                </motion.div>
+              ))}
+            </motion.div>
+          </div>
         </div>
       </motion.div>
     </>
