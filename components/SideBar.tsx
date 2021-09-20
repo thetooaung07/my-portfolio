@@ -49,7 +49,7 @@ const SideBar = () => {
         <BsLink45Deg className="w-6 h-6"></BsLink45Deg>Download Resume
       </a>
       {/* social icons */}
-      <div className="flex justify-around my-5 text-skin-mid md:w-full">
+      <div className="flex justify-around my-5 text-skin-middle border-custom md:w-full">
         <a href="https://www.facebook.com/thetooaung07" aria-label="Facebook">
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>

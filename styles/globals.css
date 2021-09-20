@@ -4,13 +4,12 @@
 
 @layer base {
   :root {
-    --color-theme-1: #000000;
+    --color-theme-1: #ccfbff;
     --color-theme-mid: #808080;
-    --color-theme-2: #ffffff;
+    --color-theme-2: #6cc6cb;
   }
   .th-cyan {
     --color-theme-1: #b7f8db;
-
     --color-theme-mid: #56c596;
     --color-theme-2: #50a7c2;
   }
@@ -21,13 +20,12 @@
   }
   .th-purple {
     --color-theme-1: #667eea;
-
     --color-theme-mid: #6447bd;
     --color-theme-2: #764ba2;
   }
   .th-red {
     --color-theme-1: #537895;
-    --color-theme-mid: #594f4f;
+    --color-theme-mid: #1C467F;
     --color-theme-2: #09203f;
   }
 }
