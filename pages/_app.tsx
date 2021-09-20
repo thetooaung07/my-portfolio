@@ -19,7 +19,9 @@ function MyApp({ Component, pageProps, router }) {
         forcedTheme={Component.theme || undefined}
         attribute="class"
       >
-        <div className={`h-screen ${color} bg-gradient-to-r from-skin-base to-skin-secondary dark:from-dark-500 dark:to-dark-700 dark:text-white`}>
+        <div
+          className={` h-full lg:h-screen ${color} bg-gradient-to-r from-skin-base to-skin-secondary dark:from-dark-500 dark:to-dark-700 dark:text-white`}
+        >
           <div className="grid grid-cols-12 gap-6 px-5 py-11 lg:pl-48 lg:pr-24 sm:px-20">
             <div className="col-span-12 p-4 text-center bg-white bg-opacity-50 bg-clip-padding backdrop-filter backdrop-blur-xl dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark ">
               <SideBar />

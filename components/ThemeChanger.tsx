@@ -10,25 +10,22 @@ const ThemeChanger: FunctionComponent<{
   console.log(theme);
 
   return (
-
-
-    
-    <div className="flex items-center gap-4 mt-0 lg:flex-col lg:mt-4">
+    <div className="flex items-center justify-center gap-4 my-2 lg:justify-start lg:flex-col lg:mt-4">
       <div
-        className="w-12 h-12 rounded-full th-cyan bg-gradient-to-tr from-skin-base to-skin-secondary"
+        className="w-12 h-12 rounded-full th-cyan bg-gradient-to-tr from-skin-base to-skin-secondary shadow-custom-light dark:shadow-custom-dark"
         onClick={() => setColor("th-cyan")}
       ></div>
 
       <div
-        className="w-12 h-12 rounded-full th-blue bg-gradient-to-tr from-skin-base to-skin-secondary"
+        className="w-12 h-12 rounded-full th-blue bg-gradient-to-tr from-skin-base to-skin-secondary shadow-custom-light dark:shadow-custom-dark"
         onClick={() => setColor("th-blue")}
       ></div>
       <div
-        className="w-12 h-12 rounded-full th-purple bg-gradient-to-tr from-skin-base to-skin-secondary"
+        className="w-12 h-12 rounded-full th-purple bg-gradient-to-tr from-skin-base to-skin-secondary shadow-custom-light dark:shadow-custom-dark"
         onClick={() => setColor("th-purple")}
       ></div>
       <div
-        className="w-12 h-12 rounded-full th-red bg-gradient-to-tr from-skin-base to-skin-secondary"
+        className="w-12 h-12 rounded-full th-red bg-gradient-to-tr from-skin-base to-skin-secondary shadow-custom-light dark:shadow-custom-dark"
         onClick={() => setColor("th-red")}
       ></div>
     </div>

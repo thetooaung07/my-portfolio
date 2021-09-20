@@ -7,7 +7,7 @@ export const NavBarItem: FunctionComponent<{
   active: string;
 }> = ({ value, handleFilterCategory, active }) => {
   let className =
-    "capitalize cursor-pointer hover:text-skin-middle whitespace-nowrap md:whitespace-normal";
+    "font-semibold capitalize cursor-pointer hover:text-skin-middle whitespace-nowrap md:whitespace-normal";
 
   if (active === value) {
     className += " text-skin-middle";
